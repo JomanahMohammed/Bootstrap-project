@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <title>bootstrap</title>
+    <style>
+        body::before{
+            content: '';
+            display: block;
+            height: 54px;
+        }
+        body{
+            font-family:monospace;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body dir="rtl">
+
+    <div class="navbar navbar-expand-md bg-dark navbar-dark text-white fixed-top">
+    <div class="container">
+        <a href="" class="navbar-brand "> تَـعلم بُـــوتستـراب </a>
+
+        <button 
+        class="navbar-toggler"    
+         type="button" 
+        data-bs-toggle="collapse"
+         data-bs-target="#mainmenu"> 
+       <span class="navbar-toggler-icon">     
+         </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="#hero" class="nav-link"> إبدا</a></li>
+                    <li class="nav-item">
+                        <a href="#features" class="nav-link">المميزات</a></li>
+
+                <li class="nav-item dropdown">
+                    <a href=" " class="nav-link dropdown-toggle " data-bs-toggle="dropdown">الخدمات</a>
+                    <ul class="dropdown-menu ">
+                        <li><a href="#learn-bootstrap" class="dropdown-item ">
+                            تعلم بوتستراب</a></li>
+                        <li><a href="#where-togo" class="dropdown-item">
+                            كيف اطور مهاراتي</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#faq" class="nav-link">الأسئلة</a></li>
+            </ul>
+        </div>
+    </div>
+    
+</div>
+
+<!-- hero -->
+
+<section id="hero" class="bg-dark text-light text-center text-sm-start py-5">
+    <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-center">
+            <div class="py-3">
+                <h1 class="display-5">
+                    تعلم <span  class="text-info">بُــوتستـراب</span>  </h1>
+                <p class="py-1 lead">
+                    أهلا بكم في موقع تعلم بوتستراب سوف نبدا معك من الاساسيات حتى الاتقان الكامل 
+                </p>
+                <button class="btn btn-info"> <a href="#learn" class="text-black">هيّا نبدأ</a></button>
+            </div>
+
+            <img class="d-none d-sm-block img-fluid w-50 p-5" src="img6.svg" alt="">
+
+        </div>
+    </div>
+</section>
+
+
+
+<!-- services -->
+
+<section class="py-5" id="features">
+    <div class="container">
+        <h2 class="text-center mb-4">
+            مميزات استخدام بوتستراب 
+        </h2>
+        <div class="row text-center">
+           
+            <div class="col-sm">
+                
+                <div class=" card bg-dark text-light mb-3 ">
+                    
+                    <div class="h1 mt-3">
+                        <i class="bi bi-bootstrap"></i>
+                    </div>
+                    
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-info">اكواد مفتوحة المصدر</h4>
+                        <p class="card-text">
+                            
+يُمكن قراءة وتعديل الاكواد الخاصه بك الموجودة داخل ال بوتستراب عند استعمالها في مشروعك.
+                        </p>
+                        <a href="#" class="btn btn-info">اقرأ أكثر</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm">
+                <div class=" card bg-dark text-light mb-3">
+                    <div class="h1 mt-3">
+                        <i class="bi bi-laptop"></i>
+                    </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-info">
+                            توفير وقت العمل </h4>
+                        <p class="card-text">
+                            
+                        سهلة الاستخدام وسريعة التعلم.
+                        التعرف على الكلاسات و حفظه و العمل عليها يزيد من سرعة آداء العمل في التصميم
+                        </p>
+                        <a href="#" class="btn btn-info">اقرا أكثر</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm">
+                <div class=" card bg-dark text-light mb-3">
+                    <div class="h1 mt-3">
+                        <i class="bi bi-phone"></i>
+                                        </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-info">
+                            التوافقية</h4>
+                        <p class="card-text">
+                            متوافق مع كافة أحجام الشاشات بدون اي مشاكل من الاجهزه الكبيره و حتى شاشات الجوال الصغيره 
+                        </p>
+                        <a href="#" class="btn btn-info">اقرا أكثر</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- what to learn  -->
+
+<section id="learn" class="py-5">
+    <div class="container" id="learn-bootstrap">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md">
+                <img src="img7.svg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md py-4">
+                <h2 class="pb-3">كيف أبدا التعلم ؟ </h2>
+                <p>
+                    أولا : البدا بتعلم الاساسيات و اتقان لغات تطوير الواجهات و هيا Html, Css,  JavaScript.  
+                </p> 
+                <p>
+                   ثانيا : تعلم مكتبات بوتستراب الاكثر استعمالًا و يمكن ايجادها في موقع بوتستراب الرسمي  <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank"> اضـغط هنـا</a>.
+                </p>
+                <p>
+                 ثالثا : التدرب على مشاريع باستمرار حتى يتم اتقان المفاهيم الاساسيه و يتم حفظ المكتبات الاكثر استعمالا .
+                 </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Next  -->
+
+<section id="next" class="py-5 bg-dark text-light">
+    <div class="container" id="where-togo">
+        <div class="row align-items-center justify-content-center flex-row-reverse">
+            <div class="col-md">
+                <img src="img8.svg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md py-4">
+                <h2 class="pb-3">كيف أطور مهاراتي ؟ </h2>
+                <p>
+                    اولا : التاكد من اتقان الاساسيات بعمل مشاريع بسيطة
+                </p>
+                <p>
+                    ثانيا : البدا بعمل مشاريع كبيره من الصفر و استخدام جميع المعارات التي تم تعلمها 
+                </p>
+                <p>
+                    ثالثا : العمل مع فريق على مشاريع للتاكد من الفهم الكافي و اماكنيه تعلم مهارات جديدة و تجنب الاخطاء 
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- FAQ  -->
+
+<section id="faq" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">
+            الأسئلة الشائعة 
+        </h2>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  كيفية تنزيل إطار العمل  بوتستراب ؟
+                </button>
+              </h2>
+
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    
+                  عن طرق كتابه اكواد cdn داخل محرر الاكواد    الخاص بك تجدها في موقع بوتستراب الرسمي  <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank"> اضـغط هنـا</a>.
+                
+                </div>
+              </div>
+
+
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  هل يتم استعمال بوتستراب في سوق العمل ؟
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    
+                    نعم تستعمل بكثره وهيا من اكثر أُطر العمل الخاصه بتصميم المواقع استعمالا لانها توفر الوقت و الجهد للمبرمج 
+                
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button 
+                class="accordion-button collapsed" type="button" 
+                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                 ما هي الكلاسات الاكثر استعمالا في بوتستراب ؟ 
+                </button>
+              </h2>
+              <div 
+              id="flush-collapseThree" 
+              class="accordion-collapse collapse" 
+              data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    
+                   جميع كلاسات بوتستراب مفيده و توفر الوقت و الجهد ولكن الاكثر استعمالا هيا : <br>
+                   btn - تعطينا شكل جاز للزر <br>
+                   card - شكل بطاقه يتم وضع محتويات فيها <br>
+                   navbar - شكل جاهز للقائمه العلويه في الموقع 
+
+                
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</section>
+
+
+<!-- footer  -->
+
+<footer class="py-4 bg-dark text-white text-center position-relative">
+<div class="container">
+    <p>
+        copyright &copy; 2024 Jumanah Mohammed 
+    </p>
+
+    <a href="#" class="position-absolute bottom-0 end-0 p-3">
+        <i class="bi bi-arrow-up-circle h2 text-info">
+        </i>
+    </a>
+</div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
